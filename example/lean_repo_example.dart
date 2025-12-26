@@ -54,7 +54,7 @@ void main() async {
   print('Expectation: Loading -> Network Data');
   await fetchAndPrint(repo, api, userId);
 
-  print('\n' + ('-' * 50) + '\n');
+  print('\n${'-' * 50}\n');
 
   print('--- 🔄 SCENARIO 2: Second Load (Stale-While-Revalidate) ---');
   print('Expectation: Cached Data (Immediate) -> Network Data (Delayed)');
