@@ -9,6 +9,19 @@ Stop writing the same `if (cache != null)` logic in every repository. `LeanRepo`
 
 It is **database-agnostic**. Use it with Hive, SQLite, SharedPreferences, or just in-memory.
 
+## 📑 Index
+
+* [Features](#-features)
+* [Installation](#-installation)
+* [Usage](#-usage)
+* [Recommended Architecture](#️-recommended-architecture)
+* [Strategies](#-strategies)
+* [Custom Drivers](#-custom-drivers)
+* [Integration Recipes](#-integration-recipes)
+* [Contributing](#-contributing)
+
+---
+
 ## ✨ Features
 
 * **Strategy Pattern:** Switch between `StaleWhileRevalidate`, `CacheFirst`, `NetworkOnly`, or `CacheOnly` with a single enum.
